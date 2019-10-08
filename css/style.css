@@ -1,0 +1,44 @@
+.item{
+	background-color: orange;
+}
+.item-img{
+	position: relative;
+	
+}
+.item-cap{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	bottom: 10%;
+	background-color: aqua;
+	text-align: center;
+	border-radius: 15%;
+}
+.all{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	
+}
+.child{
+	width: 40%;
+	height: 300px;
+	background-image: url(../images/a2.jpg);
+	background-size: 100% 100%;
+	
+}
+.show{
+	display: flex;
+}
+#wclose{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	
+}
